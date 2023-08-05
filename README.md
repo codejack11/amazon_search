@@ -49,5 +49,29 @@ Instructions for Use:
 
 5. The API will respond with a JSON containing the product details related to the search query.
 
+6. Access the Front Page (Index.html):
+   - To access the front page of the web application, open your web browser and enter the following URL:
+
+     ```
+     file:///path/to/amazon_search/index.html
+     ```
+
+     Replace `/path/to/` with the absolute path to the directory where you cloned the GitHub repository. For example, if the repository is located in `/Users/yourusername/Documents/`, then the URL will be:
+
+     ```
+     file:///Users/yourusername/Documents/amazon_search/index.html
+     ```
+
+   - Alternatively, you can set up a local web server to serve the `index.html` file. For example, you can use the `http.server` module in Python:
+
+     ```bash
+     python -m http.server
+     ```
+
+     Then, open your web browser and go to `http://localhost:8000/`. The `index.html` file will be served, and you can use the front page to search for Amazon products using the API.
+
+
+
+Please ensure that you have both the Flask API (`app.py`) and the front-end (`index.html`, `style.css`, and `script.js`) in the same directory. Additionally, remember to run both the Flask server and serve the `index.html` file to have the web application fully functional.
 
 This project allows users to easily access Amazon product details through a simple API, making it useful for various applications, including price comparison, product research, and data analysis.
