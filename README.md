@@ -28,10 +28,10 @@ Instructions for Use:
    pip install Flask requests beautifulsoup4
    ```
 
-2. Run the Flask application by executing the `app.py` file:
+2. Run the Flask application by executing the `main.py` file:
 
    ```
-   python app.py
+   python main.py
    ```
 
 3. The Flask API will be accessible at `http://localhost:5000/api/search`.
